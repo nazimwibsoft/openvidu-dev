@@ -34,3 +34,6 @@ https://docs.openvidu.io/en/stable/reference-docs/openvidu-config/#special-condi
 https://docs.openvidu.io/en/stable/components/openvidu-call/#configuration-parameters-for-openvidu-call-backend
 
 https://docs.openvidu.io/en/stable/advanced-features/recording/#2-configure-custom-layouts-in-openvidu-server
+
+## OpenVidu Recording
+When recording is enabled in the OpenVidu-dev server config as per documentation, it automatically downloads a video recording docker image openvidu/openvidu-recording on first startup.  When OpenVidu server starts a recording it will automatically launch an instance of recording container per session, so for each session a separate container is automatically started for session recording and after recording is complete it is disposed.
