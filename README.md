@@ -16,3 +16,21 @@ I have summarized a docker compose config which would use the OpenVidu dev conta
 1. In your browser hit: http://localhost:4443/ to get the OpenVidu server page
 2. Go to http://localhost:4443/dashboard/ to access the OpenVidu server dashboard for testing the instance
 3. Go to http://localhost:5442/ to access the OpenVidu calling app, which will allow creating sessions and joining for real time calls
+
+## Reference
+
+https://docs.openvidu.io/en/stable/deployment/ce/on-premises/
+
+https://hub.docker.com/r/openvidu/openvidu-dev
+
+https://hub.docker.com/r/openvidu/openvidu-call
+
+## Documentation on Recording
+
+https://docs.openvidu.io/en/stable/advanced-features/recording/#for-openvidu-development-docker-container
+
+https://docs.openvidu.io/en/stable/reference-docs/openvidu-config/#special-conditions-of-openvidu-development-container
+
+https://docs.openvidu.io/en/stable/components/openvidu-call/#configuration-parameters-for-openvidu-call-backend
+
+https://docs.openvidu.io/en/stable/advanced-features/recording/#2-configure-custom-layouts-in-openvidu-server
